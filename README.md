@@ -12,6 +12,12 @@ Interactive 3D BeiDou constellation visualization built with Vite, React, TypeSc
 - Simulation controls for play/pause, speed, and returning to current time.
 - CelesTrak online data with local snapshot fallback.
 
+## Responsive Layout
+
+The interface supports desktop and mobile viewports. On smaller screens, the status bar and controls stack over the full-screen Cesium scene while preserving the satellite list, filters, and playback controls.
+
+<img src="docs/images/beidou-earth-mobile.png" alt="BeiDou Earth Constellation mobile preview" width="320" />
+
 ## Data Sources
 
 - TLE: [CelesTrak BeiDou GP elements](https://celestrak.org/NORAD/elements/gp.php?GROUP=beidou&FORMAT=tle)
