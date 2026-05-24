@@ -20,9 +20,10 @@ The interface supports desktop and mobile viewports. On smaller screens, the sta
 
 ## Data Sources
 
-- TLE: [CelesTrak BeiDou GP elements](https://celestrak.org/NORAD/elements/gp.php?GROUP=beidou&FORMAT=tle)
-- SATCAT metadata: [CelesTrak SATCAT](https://celestrak.org/satcat/search.php)
-- Launch dates: [BeiDou official website](http://www.beidou.gov.cn/)
+- Official public information: launch dates and constellation background are referenced from the [BeiDou Navigation Satellite System official website](http://www.beidou.gov.cn/).
+- Public orbital data: TLE records are loaded from [CelesTrak BeiDou GP elements](https://celestrak.org/NORAD/elements/gp.php?GROUP=beidou&FORMAT=tle).
+- Public catalog metadata: satellite catalog fields are loaded from [CelesTrak SATCAT](https://celestrak.org/satcat/search.php).
+- Local snapshots: files under `public/data/` are cached public-data fallbacks for offline or network-failure scenarios.
 
 ## Run Locally
 
