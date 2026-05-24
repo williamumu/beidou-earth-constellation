@@ -2,6 +2,8 @@
 
 Interactive 3D BeiDou constellation visualization built with Vite, React, TypeScript, CesiumJS, and satellite.js.
 
+![BeiDou Earth Constellation preview](docs/images/beidou-earth-preview.jpg)
+
 ## Features
 
 - 3D Earth scene with BeiDou satellite positions, labels, orbit tracks, and GEO coverage footprints.
